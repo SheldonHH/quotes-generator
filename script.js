@@ -8,12 +8,24 @@ let apiQuotes = [];
 
 // Show new quotes
 function newQuote(){
+  // pick a random quote from apiQuotes array
+  const quote = apiQuotes[Math.floor(Math.random() *  apiQuotes.length)]; // making index
+
+  // const quote = localQuotes[Math.floor(Math.random() *  localQuotes.length)];
+  console.log(quote); 
   // math function return 0 or 1
   // return decimals
-  Math.random()
 
+
+// wrap  Math.random() inside Math.floor() to make sure in this case it will return less
+  // Math.floor() function
+ 
 }
 
+
+
+// local array
+newQuote()
 
 
 async function getQuotes(){
