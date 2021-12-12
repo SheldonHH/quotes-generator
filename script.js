@@ -1,5 +1,9 @@
-// Get Quotes From API
-// won't stop browsers from loading the page
+// create corresponding constant for each of these elements
+const quoteContainer = document.getElementById('quote-generator')
+// make sure id in html matches Id in javascript
+
+
+
 
 // let statement, set as empty array
 let apiQuotes = [];
